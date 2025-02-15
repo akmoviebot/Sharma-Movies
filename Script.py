@@ -248,7 +248,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<a href='https://t.me/Movieupdatewithak'>{file_name}</a>
+    CAPTION = """<a href='https://t.me/Movieupdatewithak0'>{file_name}</a>
 
 <b> Size ⚙️: {file_size}</b>""" 
 
