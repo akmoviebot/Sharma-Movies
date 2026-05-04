@@ -29,7 +29,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5
 
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002428095842'))
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7532511826 7459282233').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7532511826').split()]
 
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database 
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002249219491').split()]
@@ -94,9 +94,9 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Sharmamoviediscus')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+TNl5DApmlz04Mzll')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MovieupdatewithAK0')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Sharmamoviediscus') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MovieWalaClub') # Support Chat Link Without https:// or @
 
 
 # True Or False
@@ -118,7 +118,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'linkshortify.com')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '5631a6ddee692d407590cc2f9ac6acf6b2b1ac65')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/akmoviefile0/18')
